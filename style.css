@@ -1,31 +1,21 @@
-<<<<<<< HEAD
+
 html {
     scroll-behavior: smooth;
     }
 
 .intro1 {
              width: 500px;
-             height: 200px;
+             height: 400px;
              background-color: rgb(115, 115, 212)
          }
 
          .panel.intro1 {
              width: 500px;
-             height: 200px;
+             height: 400px;
              background-color: rgb(104, 0, 142);
          }
 
          #text {
              color: rgb(14, 14, 14);
          }
-=======
-        
-.intro1 { width: 500px; height: 200px; background-color: rgb(115, 115, 212) 
-}
-        
-.panel.intro1 { width: 500px; height: 200px; background-color: rgb(104, 0, 142);
-} 
- 
-#text { color: rgb(14, 14, 14); 
-}
->>>>>>> 858499aff87494dfe16d3b10f0fc78ac9ebc964b
+
