@@ -2,20 +2,38 @@
 html {
     scroll-behavior: smooth;
     }
+ body {
+    margin: 0;
+    background-color: #151415;
+    color: white;
+    background-image:element(images/espacio 1.jpg) ;
+   } 
 
-.intro1 {
-             width: 500px;
-             height: 400px;
-             background-color: rgb(115, 115, 212)
+         .section {
+           min-height: 100vh;
+          padding: 100px 50px;
          }
-
-         .panel.intro1 {
-             width: 500px;
-             height: 400px;
-             background-color: rgb(104, 0, 142);
-         }
-
          #text {
              color: rgb(14, 14, 14);
          }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #050816;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+nav a:hover {
+    color: #4c0ef7;
+}
